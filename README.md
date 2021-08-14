@@ -43,7 +43,7 @@ Good luck!
 
 ## Setup
 
-To check out the final output, click [here](https://daniellabrador.github.io/codecademy-tea_cozy) to view the live site.
+To check out the final output, click [here](https://daniellabrador.github.io/codecademy-tea_cozy/) to view the live site.
 
 ## Sources
 
