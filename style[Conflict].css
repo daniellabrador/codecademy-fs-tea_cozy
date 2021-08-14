@@ -97,35 +97,22 @@ main {
     background-position: center;
     background-size: cover;
     margin: auto 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .location-container {
     justify-content: center;
     display: flex;
-    gap: 40px;
 }
 
 .location-box {
     flex: 0 0 300px;
     flex-flow: row wrap;
     background-color: black;
-    gap: 40px;
 }
 
-#locations h2 {
-    margin-bottom: 15px;
-}
 
-#contact {
-    height: 200px;
-}
+/*----- Aside -----*/
+
 
 
 /*----- Footer-----*/
-footer p {
-    text-align: left;
-    margin-left: 20px;
-}
