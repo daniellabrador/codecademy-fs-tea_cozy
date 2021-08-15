@@ -2,8 +2,6 @@
 * {
     color: seashell;
     font-family: Helvetica, sans-serif;
-    top: 0;
-    left: 0;
     text-align: center;
 }
 
@@ -24,16 +22,28 @@ header {
     background-color: black;
 }
 
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: calc((69px - 25px)/2);
+}
+
 #logo {
     margin: calc((69px - 50px)/2) 10px;
 }
 
 #logo img {
     height: 100%;
-}
-
-nav {
-    margin-left: auto;
 }
 
 @media only screen and (max-width:676px){
@@ -45,19 +55,6 @@ nav {
         margin: auto;
         height: 50px;
     }
-}
-
-nav ul {
-    height: 100%;
-    margin: 0;
-}
-
-nav li {
-    display: inline-flex;
-}
-
-nav a {
-    padding: calc((69px - 25px)/2);
 }
 
 header + div {
@@ -135,23 +132,41 @@ main {
     min-width: 1060px;
 }
 
+.location-container-container h2 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.location-container-container h2 span {
+    font-size: 22px;
+    font-weight: normal;
+    display: none;
+}
+
+@media only screen and (max-width: 1060px){
+    .location-container-container h2 {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .location-container-container h2 span {
+        display: inline;
+    }
+}
+
 .location-container {
-    align-items: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
 .location-box {
     flex: 0 0 300px;
     background-color: black;
-    gap: 40px;
 }
 
-#locations h2 {
-    margin-bottom: 15px;
-    margin-top: 0;
-}
+
+/*----- Main: Contact -----*/
 
 #contact {
     height: 200px;
