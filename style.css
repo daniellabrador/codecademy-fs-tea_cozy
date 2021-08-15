@@ -12,6 +12,8 @@ body {
 }
 
 
+
+
 /*----- Header-----*/
 header {
     position: fixed;
@@ -60,6 +62,8 @@ nav a {
 header + div {
     height: 70px;
 }
+
+
 
 
 /*----- Main: Jumbotron -----*/
@@ -111,6 +115,8 @@ main {
 .tea-container p {
     margin: 10px;
 }
+
+
 
 
 /*----- Main: Locations -----*/
@@ -166,11 +172,15 @@ main {
 }
 
 
+
+
 /*----- Main: Contact -----*/
 
 #contact {
     height: 200px;
 }
+
+
 
 
 /*----- Footer-----*/
